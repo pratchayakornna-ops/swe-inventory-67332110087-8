@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 100
+extend-exclude = [
+    "lab04-ai-coding-ux",
+    "pricing_legacy.py",
+    "lab-04-handout-code",
+    "lab-05-handout-code",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

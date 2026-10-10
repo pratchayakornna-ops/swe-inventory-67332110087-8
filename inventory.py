@@ -1,4 +1,4 @@
-# inventory.py -- โค้ดจาก Lab 03 (ฉบับที่ "ถูกต้อง" ใช้เป็นฐานอ้างอิง)
+# inventory.py  -- ระบบจัดการคลังสินค้า Inventory Management System
 
 class InventoryItem:
     def __init__(self, name: str, quantity: int, price: float):
@@ -18,6 +18,7 @@ class Inventory:
         self._items: dict[str, InventoryItem] = {}
 
     def add_item(self, name: str, quantity: int, price: float) -> InventoryItem:
+        """เพิ่มสินค้าใหม่ ถ้าชื่อซ้ำให้ raise ValueError"""
         if name in self._items:
             raise ValueError(f"สินค้า '{name}' มีอยู่ในระบบแล้ว")
         item = InventoryItem(name, quantity, price)
@@ -25,6 +26,7 @@ class Inventory:
         return item
 
     def restock(self, name: str, amount: int) -> int:
+        """เพิ่มจำนวนสินค้าที่มีอยู่ คืนค่าจำนวนหลังเติม"""
         if name not in self._items:
             raise KeyError(f"ไม่พบสินค้า '{name}' ในระบบ")
         if amount <= 0:
@@ -33,6 +35,7 @@ class Inventory:
         return self._items[name].quantity
 
     def sell(self, name: str, amount: int) -> int:
+        """ขายสินค้า ลดจำนวน คืนค่าจำนวนคงเหลือ"""
         if name not in self._items:
             raise KeyError(f"ไม่พบสินค้า '{name}' ในระบบ")
         if amount <= 0:
@@ -46,6 +49,16 @@ class Inventory:
         return self._items[name].quantity
 
     def get_total_value(self) -> float:
+        """คำนวณมูลค่ารวมของสินค้าทั้งหมดในคลัง"""
         return sum(
             item.quantity * item.price for item in self._items.values()
         )
+
+    def low_stock_items(self, threshold: int) -> list[str]:
+        """คืนรายชื่อสินค้าที่มีจำนวนคงเหลือน้อยกว่าหรือเท่ากับ threshold โดยเรียงตามชื่อตัวอักษร"""
+        qualifying_items = [
+            item_name
+            for item_name, item in self._items.items()
+            if item.quantity <= threshold
+        ]
+        return sorted(qualifying_items)

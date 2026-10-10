@@ -1,6 +1,9 @@
 lab-04-handout-code/
+lab-05-handout-code/
 __pycache__/
 *.pyc
 .pytest_cache/
+.coverage
+htmlcov/
 .DS_Store
 Thumbs.db
