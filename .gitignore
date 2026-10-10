@@ -1,0 +1,6 @@
+lab-04-handout-code/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+Thumbs.db
