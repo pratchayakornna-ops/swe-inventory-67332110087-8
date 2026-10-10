@@ -1,0 +1,20 @@
+# UI Mockup Link & File References - Lab 04
+
+## 1. Local Draw.io Diagram File ( commit ใน repository โฟลเดอร์ assets/ )
+- **ชื่อไฟล์:** `assets/inventory-mockup.drawio`
+- **วิธีเปิดดู:** สามารถเปิดผ่านเว็บไซต์ https://app.diagrams.net หรือเปิดด้วย VS Code Extension "Draw.io Integration" ได้ทันที
+
+## 2. หน้าจอที่ออกแบบครอบคลุม (อย่างน้อย 2 หน้าตามเกณฑ์):
+1. **หน้าแดชบอร์ดสรุปภาพรวมและแจ้งเตือนสต็อกต่ำ (Dashboard Overview Screen)**
+   - มีการ์ดสถิติแยกสินค้ากายภาพและดิจิทัล
+   - ตารางแจ้งเตือนสินค้าสต็อกวิกฤต (Low Stock <= 5 ชิ้น) พร้อมปุ่มทางลัดเติมสต็อก
+2. **หน้าเพิ่มสินค้าใหม่ (Add Product Screen)**
+   - มีตัวเลือกระบุประเภทสินค้า (สินค้าจับต้องได้ vs สินค้าดิจิทัล)
+   - ปรับฟิลด์จำนวนเป็น Disabled อัตโนมัติเมื่อเลือกสินค้าดิจิทัล และเปิดฟิลด์ลิงก์/แนบไฟล์
+   - มี Label ประจำทุกช่อง, เครื่องหมาย * ที่ช่องบังคับ, ตัวอย่าง Validation Error และปุ่มบันทึก Primary Button สี #1E40AF
+
+## 3. ชุดสีที่ผ่านเกณฑ์ Contrast (WCAG AA):
+- Primary Action: `#1E40AF` (สีน้ำเงินเข้ม อัตรา Contrast บนพื้นขาว > 8.5:1)
+- Success State: `#15803D` (สีเขียวเข้ม อัตรา Contrast บนพื้นขาว > 4.8:1)
+- Warning / Alert: `#B45309` (สีส้มน้ำตาลเข้ม อัตรา Contrast บนพื้นขาว > 5.1:1)
+- Text Body: `#111827` (สีเทาเกือบดำ อัตรา Contrast บนพื้นขาว > 15:1)
