@@ -9,3 +9,12 @@ extend-exclude = [
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.coverage.run]
+omit = [
+    "lab04-ai-coding-ux/*",
+    "tests/*",
+]
