@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1000" height="650" fill="#F9FAFB"/>
+  
+  <!-- Navbar -->
+  <rect width="1000" height="60" fill="#1E40AF"/>
+  <text x="30" y="38" fill="#FFFFFF" font-size="20" font-weight="bold">📦 SWE INVENTORY SYSTEM</text>
+  <rect x="300" y="15" width="90" height="30" rx="6" fill="#1D4ED8"/>
+  <text x="315" y="35" fill="#FFFFFF" font-size="14" font-weight="bold">แดชบอร์ด</text>
+  <text x="415" y="35" fill="#DBEAFE" font-size="14">รายการสินค้า</text>
+  <text x="515" y="35" fill="#DBEAFE" font-size="14">รายงานสต็อก</text>
+  <text x="820" y="35" fill="#FFFFFF" font-size="14">👤 สมชาย (คลังสินค้า) | ออกจากระบบ</text>
+
+  <!-- Title & Action Button -->
+  <text x="30" y="105" fill="#111827" font-size="22" font-weight="bold">ภาพรวมคลังสินค้า (Dashboard Overview)</text>
+  <text x="30" y="130" fill="#6B7280" font-size="14">ข้อมูลอัปเดตล่าสุด: วันนี้ ระบบจัดการสต็อกทั้งสินค้ากายภาพและดิจิทัล</text>
+  
+  <!-- Add Product Button (Primary #1E40AF) -->
+  <rect x="760" y="90" width="210" height="42" rx="8" fill="#1E40AF"/>
+  <text x="785" y="117" fill="#FFFFFF" font-size="15" font-weight="bold">+ เพิ่มสินค้าใหม่ (Add Product)</text>
+
+  <!-- Metric Cards -->
+  <!-- Card 1 -->
+  <rect x="30" y="155" width="220" height="95" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="50" y="185" fill="#6B7280" font-size="14">สินค้าทั้งหมดในระบบ</text>
+  <text x="50" y="225" fill="#111827" font-size="28" font-weight="bold">142 <tspan font-size="16" font-weight="normal" fill="#6B7280">รายการ</tspan></text>
+
+  <!-- Card 2 -->
+  <rect x="275" y="155" width="220" height="95" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="295" y="185" fill="#6B7280" font-size="14">สินค้ากายภาพ (มีสต็อกนับ)</text>
+  <text x="295" y="225" fill="#15803D" font-size="28" font-weight="bold">3,450 <tspan font-size="16" font-weight="normal" fill="#6B7280">ชิ้น</tspan></text>
+
+  <!-- Card 3 -->
+  <rect x="520" y="155" width="220" height="95" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="540" y="185" fill="#6B7280" font-size="14">สินค้าดิจิทัล (ไฟล์/License)</text>
+  <text x="540" y="225" fill="#1E40AF" font-size="28" font-weight="bold">28 <tspan font-size="16" font-weight="normal" fill="#6B7280">รายการ</tspan></text>
+
+  <!-- Card 4 (Alert <= 5) -->
+  <rect x="765" y="155" width="205" height="95" rx="10" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="785" y="185" fill="#B45309" font-size="14" font-weight="bold">⚠️ สต็อกต่ำวิกฤต (≤ 5)</text>
+  <text x="785" y="225" fill="#B45309" font-size="28" font-weight="bold">3 <tspan font-size="16" font-weight="normal">รายการ</tspan></text>
+
+  <!-- Table Container -->
+  <rect x="30" y="275" width="940" height="345" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="50" y="310" fill="#111827" font-size="17" font-weight="bold">⚠️ รายการสินค้าสต็อกใกล้หมด (Low Stock Alert: คงเหลือ ≤ 5 ชิ้น)</text>
+  
+  <!-- Table Header -->
+  <rect x="50" y="330" width="900" height="38" rx="6" fill="#F3F4F6"/>
+  <text x="70" y="354" fill="#374151" font-size="14" font-weight="bold">รหัสสินค้า</text>
+  <text x="180" y="354" fill="#374151" font-size="14" font-weight="bold">ชื่อสินค้า</text>
+  <text x="440" y="354" fill="#374151" font-size="14" font-weight="bold">ชนิดสินค้า</text>
+  <text x="560" y="354" fill="#374151" font-size="14" font-weight="bold">คงเหลือ</text>
+  <text x="680" y="354" fill="#374151" font-size="14" font-weight="bold">ราคาต่อชิ้น</text>
+  <text x="820" y="354" fill="#374151" font-size="14" font-weight="bold">การกระทำ</text>
+
+  <!-- Row 1 -->
+  <line x1="50" y1="415" x2="950" y2="415" stroke="#E5E7EB"/>
+  <text x="70" y="396" fill="#111827" font-size="14" font-weight="bold">HW-1002</text>
+  <text x="180" y="396" fill="#111827" font-size="14">เมาส์ไร้สายบลูทูธ Logitech M331</text>
+  <rect x="435" y="380" width="75" height="24" rx="12" fill="#E0E7FF"/>
+  <text x="448" y="396" fill="#1E40AF" font-size="12" font-weight="bold">กายภาพ</text>
+  <rect x="555" y="380" width="85" height="24" rx="12" fill="#FEE2E2"/>
+  <text x="565" y="396" fill="#DC2626" font-size="13" font-weight="bold">2 ชิ้น (วิกฤต)</text>
+  <text x="680" y="396" fill="#111827" font-size="14">450.00 บ.</text>
+  <rect x="810" y="378" width="105" height="28" rx="6" fill="#1E40AF"/>
+  <text x="825" y="396" fill="#FFFFFF" font-size="13" font-weight="bold">+ เติมสต็อก</text>
+
+  <!-- Row 2 -->
+  <line x1="50" y1="465" x2="950" y2="465" stroke="#E5E7EB"/>
+  <text x="70" y="446" fill="#111827" font-size="14" font-weight="bold">HW-1045</text>
+  <text x="180" y="446" fill="#111827" font-size="14">คีย์บอร์ด Mechanical Red Switch RGB</text>
+  <rect x="435" y="430" width="75" height="24" rx="12" fill="#E0E7FF"/>
+  <text x="448" y="446" fill="#1E40AF" font-size="12" font-weight="bold">กายภาพ</text>
+  <rect x="555" y="430" width="85" height="24" rx="12" fill="#FEF3C7"/>
+  <text x="570" y="446" fill="#B45309" font-size="13" font-weight="bold">4 ชิ้น (เตือน)</text>
+  <text x="680" y="446" fill="#111827" font-size="14">1,200.00 บ.</text>
+  <rect x="810" y="428" width="105" height="28" rx="6" fill="#1E40AF"/>
+  <text x="825" y="446" fill="#FFFFFF" font-size="13" font-weight="bold">+ เติมสต็อก</text>
+
+  <!-- Row 3 -->
+  <line x1="50" y1="515" x2="950" y2="515" stroke="#E5E7EB"/>
+  <text x="70" y="496" fill="#111827" font-size="14" font-weight="bold">HW-2011</text>
+  <text x="180" y="496" fill="#111827" font-size="14">สายชาร์จ Type-C Fast Charge 100W</text>
+  <rect x="435" y="480" width="75" height="24" rx="12" fill="#E0E7FF"/>
+  <text x="448" y="496" fill="#1E40AF" font-size="12" font-weight="bold">กายภาพ</text>
+  <rect x="555" y="480" width="85" height="24" rx="12" fill="#FEF3C7"/>
+  <text x="570" y="496" fill="#B45309" font-size="13" font-weight="bold">5 ชิ้น (เตือน)</text>
+  <text x="680" y="496" fill="#111827" font-size="14">190.00 บ.</text>
+  <rect x="810" y="478" width="105" height="28" rx="6" fill="#1E40AF"/>
+  <text x="825" y="496" fill="#FFFFFF" font-size="13" font-weight="bold">+ เติมสต็อก</text>
+
+  <!-- Digital banner info -->
+  <rect x="50" y="540" width="900" height="55" rx="8" fill="#EFF6FF" stroke="#BFDBFE"/>
+  <text x="70" y="572" fill="#1E40AF" font-size="14" font-weight="bold">📂 ส่วนสินค้าดิจิทัล (Digital Products):</text>
+  <text x="320" y="572" fill="#1E3A8A" font-size="14">สินค้าดิจิทัลทั้งหมด (28 รายการ) มีสถานะไฟล์พร้อมดาวน์โหลดและรหัส License พร้อมจำหน่าย ไม่จำกัดยอดสต็อก</text>
+</svg>

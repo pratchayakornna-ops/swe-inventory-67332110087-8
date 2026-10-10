@@ -1,12 +1,16 @@
 # UI Mockup Link & File References - Lab 04
 
-## 1. Local Draw.io Diagram File ( commit ใน repository โฟลเดอร์ assets/ )
-- **ชื่อไฟล์:** `assets/inventory-mockup.drawio`
-- **วิธีเปิดดู:** สามารถเปิดผ่านเว็บไซต์ https://app.diagrams.net หรือเปิดด้วย VS Code Extension "Draw.io Integration" ได้ทันที
+## 1. ไฟล์ Mockup ใน Repository (โฟลเดอร์ assets/)
+1. **ไฟล์ Draw.io Diagram ต้นฉบับ:**
+   - `assets/inventory-mockup.drawio`
+   - สามารถเปิดดูและแก้ไขได้ที่: https://app.diagrams.net หรือเปิดใน VS Code ด้วย Draw.io Extension
+2. **ไฟล์ภาพ Vector SVG (เปิดดูได้ทันทีบน GitHub):**
+   - **Dashboard Mockup:** [`assets/mockup-dashboard.svg`](mockup-dashboard.svg) (แสดงภาพรวมคลัง, สถิติแยกกายภาพ/ดิจิทัล, และตารางเตือนสต็อกต่ำ <= 5)
+   - **Add Product Mockup:** [`assets/mockup-add-product.svg`](mockup-add-product.svg) (แสดงฟอร์มเพิ่มสินค้า, ปุ่มเลือกประเภทสินค้า กายภาพ vs ดิจิทัล, Visible Labels, และปุ่ม Primary Action)
 
 ## 2. หน้าจอที่ออกแบบครอบคลุม (อย่างน้อย 2 หน้าตามเกณฑ์):
 1. **หน้าแดชบอร์ดสรุปภาพรวมและแจ้งเตือนสต็อกต่ำ (Dashboard Overview Screen)**
-   - มีการ์ดสถิติแยกสินค้ากายภาพและดิจิทัล
+   - มีการ์ดสถิติแยกสินค้ากายภาพ (3,450 ชิ้น) และสินค้าดิจิทัล (28 รายการ)
    - ตารางแจ้งเตือนสินค้าสต็อกวิกฤต (Low Stock <= 5 ชิ้น) พร้อมปุ่มทางลัดเติมสต็อก
 2. **หน้าเพิ่มสินค้าใหม่ (Add Product Screen)**
    - มีตัวเลือกระบุประเภทสินค้า (สินค้าจับต้องได้ vs สินค้าดิจิทัล)

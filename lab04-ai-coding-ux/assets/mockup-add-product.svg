@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 780" width="1000" height="780" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1000" height="780" fill="#F9FAFB"/>
+  
+  <!-- Navbar -->
+  <rect width="1000" height="60" fill="#1E40AF"/>
+  <text x="30" y="38" fill="#FFFFFF" font-size="20" font-weight="bold">📦 SWE INVENTORY SYSTEM</text>
+  <text x="300" y="35" fill="#DBEAFE" font-size="14">แดชบอร์ด</text>
+  <rect x="390" y="15" width="105" height="30" rx="6" fill="#1D4ED8"/>
+  <text x="402" y="35" fill="#FFFFFF" font-size="14" font-weight="bold">รายการสินค้า</text>
+  <text x="520" y="35" fill="#DBEAFE" font-size="14">รายงานสต็อก</text>
+  <text x="820" y="35" fill="#FFFFFF" font-size="14">👤 สมชาย (คลังสินค้า) | ออกจากระบบ</text>
+
+  <!-- Breadcrumb & Title -->
+  <text x="30" y="92" fill="#6B7280" font-size="13">หน้าหลัก &gt; รายการสินค้า &gt; เพิ่มสินค้าใหม่</text>
+  <text x="30" y="120" fill="#111827" font-size="22" font-weight="bold">เพิ่มสินค้าใหม่ในคลัง (Add New Product)</text>
+  <text x="30" y="142" fill="#6B7280" font-size="14">ระบุรายละเอียดสินค้า กรุณาเลือกประเภทสินค้าก่อนกรอกข้อมูลสต็อก</text>
+
+  <!-- Success Notification Demo -->
+  <rect x="30" y="160" width="940" height="42" rx="8" fill="#DCFCE7" stroke="#15803D" stroke-width="1.2"/>
+  <text x="50" y="186" fill="#15803D" font-size="14" font-weight="bold">✓ บันทึกสำเร็จ:</text>
+  <text x="150" y="186" fill="#166534" font-size="14">ระบบได้ทำการเพิ่มสินค้า "E-Book สถาปัตยกรรมซอฟต์แวร์ 2026" เข้าระบบคลังเรียบร้อยแล้ว</text>
+
+  <!-- Form Box -->
+  <rect x="30" y="215" width="940" height="540" rx="10" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+
+  <!-- Field: Product Type -->
+  <text x="60" y="250" fill="#111827" font-size="15" font-weight="bold">ชนิดของสินค้า (Product Type) <tspan fill="#DC2626">*</tspan></text>
+  
+  <!-- Radio Option 1: Physical -->
+  <rect x="60" y="265" width="410" height="42" rx="8" fill="#F9FAFB" stroke="#D1D5DB"/>
+  <circle cx="85" cy="286" r="7" fill="#FFFFFF" stroke="#9CA3AF" stroke-width="2"/>
+  <text x="105" y="291" fill="#374151" font-size="14">สินค้าที่จับต้องได้ (Physical Goods - ตัดยอดสต็อกตามชิ้น)</text>
+
+  <!-- Radio Option 2: Digital (Active) -->
+  <rect x="490" y="265" width="450" height="42" rx="8" fill="#EFF6FF" stroke="#1E40AF" stroke-width="2"/>
+  <circle cx="515" cy="286" r="7" fill="#FFFFFF" stroke="#1E40AF" stroke-width="2"/>
+  <circle cx="515" cy="286" r="4" fill="#1E40AF"/>
+  <text x="535" y="291" fill="#1E40AF" font-size="14" font-weight="bold">สินค้าดิจิทัล (Digital Goods - ไฟล์/License ไม่จำกัดสต็อก)</text>
+
+  <!-- Field 1: SKU -->
+  <text x="60" y="340" fill="#111827" font-size="14" font-weight="bold">1. รหัสสินค้า (SKU / Product Code) <tspan fill="#DC2626">*</tspan></text>
+  <rect x="60" y="352" width="880" height="38" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="75" y="376" fill="#111827" font-size="14">DG-5002</text>
+  <text x="60" y="405" fill="#6B7280" font-size="12">คำแนะนำ: ตัวอย่าง DG-xxxx สำหรับดิจิทัล หรือ HW-xxxx สำหรับสินค้ากายภาพ</text>
+
+  <!-- Field 2: Product Name -->
+  <text x="60" y="435" fill="#111827" font-size="14" font-weight="bold">2. ชื่อสินค้า (Product Name) <tspan fill="#DC2626">*</tspan></text>
+  <rect x="60" y="447" width="880" height="38" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="75" y="471" fill="#111827" font-size="14">E-Book สถาปัตยกรรมซอฟต์แวร์ในยุค AI 2026 (PDF)</text>
+
+  <!-- Field 3: Quantity (Disabled for Digital) -->
+  <text x="60" y="515" fill="#111827" font-size="14" font-weight="bold">3. จำนวนสินค้าเริ่มต้น (Quantity) <tspan fill="#DC2626">*</tspan></text>
+  <rect x="60" y="527" width="420" height="38" rx="6" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="75" y="551" fill="#6B7280" font-size="13">🔒 [ไม่จำกัดสต็อก] สินค้าดิจิทัลไม่ต้องนับจำนวนชิ้น</text>
+
+  <!-- Field 4: Price -->
+  <text x="510" y="515" fill="#111827" font-size="14" font-weight="bold">4. ราคาขายต่อหน่วย (Price - บาท) <tspan fill="#DC2626">*</tspan></text>
+  <rect x="510" y="527" width="430" height="38" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="525" y="551" fill="#111827" font-size="14">350.00</text>
+
+  <!-- Field 5: Digital File Download Link -->
+  <text x="60" y="595" fill="#111827" font-size="14" font-weight="bold">5. แนบไฟล์ดิจิทัล หรือระบุ URL ลิงก์ดาวน์โหลด <tspan fill="#DC2626">*</tspan></text>
+  <rect x="60" y="607" width="710" height="38" rx="6" fill="#FFFFFF" stroke="#D1D5DB"/>
+  <text x="75" y="631" fill="#111827" font-size="14">https://storage.rmuti.ac.th/ebooks/swe-ai-2026.pdf</text>
+  <rect x="785" y="607" width="155" height="38" rx="6" fill="#E5E7EB" stroke="#D1D5DB"/>
+  <text x="807" y="631" fill="#374151" font-size="13" font-weight="bold">📁 เลือกไฟล์จากเครื่อง...</text>
+  <text x="60" y="660" fill="#6B7280" font-size="12">รองรับไฟล์ประเภท .pdf, .zip, .epub สูงสุด 100MB พร้อมระบบสร้าง Token สำหรับลูกค้าที่ยืนยันชำระเงินแล้วเท่านั้น</text>
+
+  <!-- Buttons: Cancel & Save -->
+  <line x1="60" y1="685" x2="940" y2="685" stroke="#E5E7EB"/>
+  <rect x="660" y="700" width="125" height="42" rx="8" fill="#F3F4F6" stroke="#D1D5DB"/>
+  <text x="693" y="726" fill="#374151" font-size="14" font-weight="bold">ยกเลิก (Cancel)</text>
+
+  <rect x="800" y="700" width="140" height="42" rx="8" fill="#1E40AF"/>
+  <text x="817" y="726" fill="#FFFFFF" font-size="14" font-weight="bold">💾 บันทึกสินค้า (Save)</text>
+</svg>
